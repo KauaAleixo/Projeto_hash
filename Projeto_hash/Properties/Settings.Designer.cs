@@ -33,5 +33,7 @@ namespace Projeto_hash.Properties {
                 return ((string)(this["Login_sdf_cj3021947ConnectionString"]));
             }
         }
+
+        public string LoginsConnectionString { get; internal set; }
     }
 }
